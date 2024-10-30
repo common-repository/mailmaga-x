@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mailmaga X\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-09 21:06+0900\n"
+"PO-Revision-Date: 2013-08-24 11:20+0900\n"
+"Last-Translator: lin <dawn8898@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: mailmaga-x\n"
+
+#classes/Mailmaga_x.php
+msgid "Users"
+msgstr "邮件用户"
+
+msgid "Servers"
+msgstr "邮件服务器"
+
+msgid "History"
+msgstr "发送记录"
+
+#classes/Mailmaga_x_user.php
+msgid "Send mail completed."
+msgstr "邮件已经成功发送。"
+
+msgid "Import CSV completed."
+msgstr "CSV已经成功导入。"
+
+msgid "Delete user completed."
+msgstr "用户已经删除。"
+
+msgid "CSV file is empty."
+msgstr "CSV文件无法读取。"
+
+msgid "Name can not be empty."
+msgstr "姓名不能为空。"
+
+msgid "Email can not be empty."
+msgstr "Email地址不能为空。"
+
+msgid "Email is not correct."
+msgstr "非法的Email地址。"
+
+msgid "Group can not be empty."
+msgstr "用户组不能为空。"
+
+msgid "Name"
+msgstr "姓名"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Opened (only HTML mail)"
+msgstr "开封率(仅限HTML邮件)"
+
+msgid "Group"
+msgstr "用户组"
+
+msgid "Mail subject cannot be empty."
+msgstr "邮件标题不能为空。"
+
+msgid "Mail body cannot be empty."
+msgstr "邮件内容不能为空。"
+
+msgid "Mail server must be selected."
+msgstr "请指定至少一台邮件服务器。"
+
+#template/user_index.php
+msgid "New"
+msgstr "新建"
+
+msgid "Select all"
+msgstr "全选"
+
+msgid "Select"
+msgstr "选择"
+
+msgid "Send mail"
+msgstr "开始发送"
+
+#template/mail_input.php
+msgid "New mailmagazine"
+msgstr "邮件内容设定"
+
+msgid "Mail subject"
+msgstr "邮件标题"
+
+msgid "Test"
+msgstr "测试发送"
+
+msgid "Send"
+msgstr "开始发送"
+
+msgid "Processing"
+msgstr "发送中"
+
+msgid "Run in background"
+msgstr "后台执行"
+
+msgid "Send from"
+msgstr "发件人"
+
+msgid "Mail server"
+msgstr "邮件服务器"
+
+#classes/Mailmaga_x_server.php
+msgid "Create server completed."
+msgstr "成功新建一台邮件服务器。"
+
+msgid "Update server completed."
+msgstr "邮件服务器变更保存完毕。"
+
+msgid "Delete server completed."
+msgstr "成功删除邮件服务器。"
+
+msgid "Server name cannot be empty."
+msgstr "邮件服务器名不能为空。"
+
+msgid "Server host cannot be empty."
+msgstr "主机地址不能为空。"
+
+msgid "Server port cannot be empty."
+msgstr "端口不能为空。"
+
+msgid "Server port must be number."
+msgstr "端口必须为半角数字。"
+
+msgid "Server account cannot be empty."
+msgstr "SMTP邮件账户不能为空。"
+
+msgid "Server password cannot be empty."
+msgstr "SMTP邮件密码不能为空。"
+
+#templates/server_index.php
+msgid "Server name"
+msgstr "邮件服务器"
+
+msgid "Host"
+msgstr "主机地址"
+
+msgid "Account"
+msgstr "账户"
+
+#templates/server_input.php
+msgid "New server"
+msgstr "新建邮件服务器"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "Interval"
+msgstr "发送间隔"
+
+msgid "Auth"
+msgstr "认证"
+
+msgid "Use SMTP Auth"
+msgstr "SMTP认证"
+
+msgid "Password"
+msgstr "密码"
+
+#classes/Mailmaga_x_mailer
+msgid "mail_id cannot be empty."
+msgstr "mail_id不能为空。"
+
+msgid "server_id cannot be empty."
+msgstr "server_id不能为空。"
+
+#classes/Mailmaga_x_history
+msgid "Delete history completed."
+msgstr "成功删除发送记录。"
+
+#templates/history_index.php
+msgid "Success count"
+msgstr "成功数"
+
+msgid "Faild count"
+msgstr "失败数"
+
+msgid "Opened count (only HTML mail)"
+msgstr "开封数<br />(仅限HTML邮件)"
+
+msgid "Sent time"
+msgstr "发送时间"
+
+msgid "Resend"
+msgstr "再次发送（复制）"
+
+msgid "Retry"
+msgstr "重试"
+

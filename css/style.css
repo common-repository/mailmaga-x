@@ -1,0 +1,15 @@
+
+#post-body .process{
+	float:left;
+	line-height:28px;
+	display:inline-block;
+}
+.fr{
+	float:right;
+}
+.fn{
+	float:none;
+}
+.ml-lit{
+	margin-left:5px;
+}
